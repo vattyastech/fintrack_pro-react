@@ -2,7 +2,7 @@ import React from "react";
 import { useAuth } from "../hooks/useAuth";
 import { Navigate, Outlet } from "react-router";
 import Header from "../components/Header";
-import Sidebar from "../components/SIdebar";
+import Sidebar from "../components/Sidebar";
 
 const ProtectedLayout = () => {
   const { loggedIn } = useAuth();
