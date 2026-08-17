@@ -16,7 +16,7 @@ export const useAuth = () => {
   } = useForm();
 
   const handleRegister = (data) => {
-    let arr = [...user, data];
+    let arr = [...users, data];
     setUsers(arr);
     toast.success("User Register Successfully");
     localStorage.setItem("User", JSON.stringify(arr));
